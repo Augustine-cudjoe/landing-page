@@ -1,0 +1,64 @@
+
+body{
+    padding: 0%;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+nav{
+    display: inline-block;
+}
+.navbar-brand{
+    width: 30px;
+    height: auto;
+}
+.bi-circle{
+    width: 60px;
+    height: 60px;
+    background-color: lightblue;
+    border-radius: 50%;
+}
+.bi-facebook,.bi-twitter{
+    width: 16px;
+    height: 16px;
+    color: white;
+    background-color: blue;
+    border-radius: 10%;
+}
+#desc-img{
+    width: 555px;
+}
+
+#action-button{
+ align-self: center;
+  
+}
+.footer-logo img{
+    width: 50px;
+}
+
+
+.input-field{
+    width: 100%;
+}
+input{
+    position: relative;
+    width: 100%;
+   padding-top: 10;
+   height: 40px;
+   background-color: #E0ECFD66;
+    
+}
+
+.icon{
+   
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+   color: blue;
+}
