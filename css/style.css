@@ -10,8 +10,15 @@ nav{
     display: inline-block;
 }
 .navbar-brand{
-    width: 30px;
-    height: auto;
+    text-align: center;
+    padding: 5px;
+    width: 60.86px;
+   
+color: #0065F2;
+}
+.navbar-brand:hover{
+    color:white;
+    background-color: #0065F2;
 }
 .bi-circle{
     width: 60px;
@@ -37,7 +44,15 @@ nav{
 .footer-logo img{
     width: 50px;
 }
+.foot-logo{
+    width: 70px;
+    height: 15px;
+    padding: 5px;
+    color: #0065F2;
+    background: rgb(238,174,202);
+    background: linear-gradient(90deg, rgba(238,174,202,1) 51%, rgba(35,81,168,0.4976584383753502) 92%);
 
+}
 
 .input-field{
     width: 100%;
@@ -48,6 +63,7 @@ input{
    padding-top: 10;
    height: 40px;
    background-color: #E0ECFD66;
+   
     
 }
 
